@@ -1,8 +1,8 @@
 TARGETS=all check clean clobber distclean install uninstall
 TARGET=all
 
-PREFIX=${DESTDIR}/opt
-COREDIR=${PREFIX}/bin
+PREFIX=${DESTDIR}
+COREDIR=${PREFIX}/usr/libexec/git-core
 SUBDIRS=
 
 ifeq	(${MAKE},gmake)
